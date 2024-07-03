@@ -1,7 +1,10 @@
+import Button from "components/Button"
 import "./Error404.css"
 import error404Img from "assets/error_404.png"
+import { useNavigate } from "react-router-dom";
 
-const error404 = () => {
+const Error404 = () => {
+    const navigate = useNavigate();
     return (
         <>
             <div className="contentContainer404">
@@ -18,8 +21,8 @@ const error404 = () => {
                     Please wait a moment and reload the page, or return to the homepage.
                 </p>
 
-                <div className="btnContainer">
-                    <button>Voltar</button>
+                <div className="btnContainer" onClick={() => navigate(-1)}>
+                    <Button size="lg">Back</Button>
                 </div>
                 <img className="imageDog" src={error404Img} alt="Dog with glasses" />
             </div>
@@ -27,5 +30,4 @@ const error404 = () => {
         </>
     )
 }
-
-export default error404  
+export default Error404  

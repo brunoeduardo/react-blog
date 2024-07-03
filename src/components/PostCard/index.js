@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./PostCard.css"
+import Button from "components/Button"
 
 const PostCard = ({post}) => {
     return (
@@ -9,7 +10,7 @@ const PostCard = ({post}) => {
 
                 <h2 className="title">{post.title}</h2>
 
-                <button className="btn-read">Read</button>
+                <Button>Read</Button>
             </div>
         </Link>
     )
