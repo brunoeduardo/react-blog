@@ -6,7 +6,7 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.title {
+.banner-title {
     font-family: var(--font-secondary);
     font-size: 4rem;
     margin-top: 4.875rem;
@@ -45,7 +45,7 @@
         padding: 3.5rem 1.5rem;
     }
 
-    .title {
+    .banner-title {
         margin-top: 0;
         margin-bottom: 1.5rem;
     }
@@ -74,7 +74,7 @@
         display: block;
     }
 
-    .title {
+    .banner-title {
         margin-bottom: 2rem;
     }
 

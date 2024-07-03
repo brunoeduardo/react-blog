@@ -1,12 +1,9 @@
 import "./Init.css"
-import Banner from "components/Banner"
 import posts from "json/posts.json"
 import Post from "components/Post"
 
 const Init = () => {
     return(
-    <div>
-        <Banner/>
         <ul className="posts">
             {posts.map((post) => (
                 <li key={post.id}>
@@ -14,7 +11,6 @@ const Init = () => {
                 </li>
             ))}
         </ul>
-    </div>
         )
 }
 

@@ -7,7 +7,7 @@ const Banner = () => {
     return(
         <div className="banner">
             <div>
-                <h1 className="title">
+                <h1 className="banner-title">
                     Hello world!
                 </h1>
                 <p className="paragraph">
