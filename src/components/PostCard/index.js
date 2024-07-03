@@ -4,9 +4,9 @@ import Button from "components/Button"
 
 const PostCard = ({post}) => {
     return (
-        <Link to={`post/${post.id}`}>
+        <Link to={`/post/${post.id}`}>
             <div className="post">
-                <img className="cover" src={`assets/posts/${post.id}/cover.png`} alt="cover post" />
+                <img className="cover" src={`/assets/posts/${post.id}/cover.png`} alt="cover post" />
 
                 <h2 className="title">{post.title}</h2>
 

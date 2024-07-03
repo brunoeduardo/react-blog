@@ -71,3 +71,13 @@
         line-height: 1.75rem;
     }
 }
+
+.other-posts-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.other-posts-container a {
+    text-decoration: none;
+}

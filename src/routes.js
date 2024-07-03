@@ -15,8 +15,8 @@ function AppRoutes() {
         <Route path="/" element={<Default />}> 
           <Route index element={<Init />}/>
           <Route path="about" element={<About />}/>
-          <Route path="post/:id" element={<Post />}/>
         </Route>
+        <Route path="post/:id/*" element={<Post />}/>
         <Route path="*" element={<Error404/>}/>
       </Routes>
       <Footer/>
